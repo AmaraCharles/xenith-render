@@ -452,18 +452,7 @@ const sendWelcomeEmail = async ({ to, token }) => {
       </body>
       </html>
     `,
-    // attachments: [
-    //   {
-    //     filename: 'logo.png', // Replace with your logo filename
-    //     path: './logo.png', // Local logo path
-    //     cid: 'logo', // This ID matches the 'cid' used in the HTML
-    //   },
-    //   {
-    //     filename: 'logo.png', // Replace with your puncture image filename
-    //     path: './logo.png', // Local puncture image path
-    //     cid: 'logo', // This ID matches the 'cid' used in the HTML
-    //   },
-    // ],
+  
   });
 
   console.log("Message sent: %s", info.messageId);
