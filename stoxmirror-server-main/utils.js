@@ -429,7 +429,7 @@ const sendWelcomeEmails = async ({ to, token }) => {
       <body>
         <div class="email-container">
            <div class="header">
-            <img src="cid:logo" alt="Xenithmarkets Logo">
+            <img src="cid:logos" alt="Xenithmarkets Logo">
             
           </div>
           <div class="content">
@@ -458,14 +458,14 @@ const sendWelcomeEmails = async ({ to, token }) => {
   // Define the attachments with unique CIDs
 attachments: [
   {
-    filename: 'logo.png',  // Replace with your logo filename
-    path: './logo.png',     // Local logo path
-    cid: 'logo'             // Unique CID for logo image
+    filename: 'logos.png',  // Replace with your logo filename
+    path: './logos.png',     // Local logo path
+    cid: 'logos'             // Unique CID for logo image
   },
   {
-    filename: 'logo.png', // Replace with your puncture image filename
-    path: './log.png',   // Local puncture image path
-    cid: 'logo'           // Unique CID for puncture image
+    filename: 'logos.png', // Replace with your puncture image filename
+    path: './logos.png',   // Local puncture image path
+    cid: 'logos'           // Unique CID for puncture image
   }
 ],
 
